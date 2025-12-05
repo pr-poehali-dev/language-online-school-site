@@ -73,9 +73,9 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-              L
+              В
             </div>
-            <span className="font-heading font-bold text-2xl">LinguaSpace</span>
+            <span className="font-heading font-bold text-2xl">Вверх</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#courses" className="text-sm font-medium hover:text-primary transition-colors">Курсы</a>
@@ -280,12 +280,12 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                L
+                В
               </div>
-              <span className="font-heading font-bold text-xl">LinguaSpace</span>
+              <span className="font-heading font-bold text-xl">Вверх</span>
             </div>
             <div className="text-center md:text-right text-sm text-muted-foreground">
-              <p>© 2024 LinguaSpace. Все права защищены.</p>
+              <p>© 2024 Вверх. Все права защищены.</p>
               <p className="mt-1">Онлайн-школа иностранных языков</p>
             </div>
           </div>

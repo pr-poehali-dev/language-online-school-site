@@ -68,8 +68,8 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-accent">
-      <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+    <div className="min-h-screen bg-background">
+      <header className="border-b bg-card/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-xl">
@@ -150,7 +150,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="benefits" className="container mx-auto px-4 py-16 bg-white/50 rounded-3xl my-16">
+      <section id="benefits" className="container mx-auto px-4 py-16 bg-card/70 rounded-3xl my-16">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-heading font-bold text-4xl mb-12 text-center">Почему выбирают нас</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -160,8 +160,8 @@ const Index = () => {
                 className="text-center animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <Icon name={benefit.icon as any} size={32} className="text-white" />
+                <div className="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Icon name={benefit.icon as any} size={32} className="text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">{benefit.title}</h3>
                 <p className="text-muted-foreground">{benefit.description}</p>
@@ -275,7 +275,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="border-t mt-20 py-12 bg-white">
+      <footer className="border-t mt-20 py-12 bg-card">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
